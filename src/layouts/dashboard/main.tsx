@@ -51,7 +51,7 @@ const Main = () => {
 				}}
 			>
 				<Suspense fallback={<LineLoading />}>
-					{/* <Outlet /> */}
+					<Outlet />
 					<ScrollRestoration />
 				</Suspense>
 			</main>
