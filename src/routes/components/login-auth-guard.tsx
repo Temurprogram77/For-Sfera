@@ -11,7 +11,8 @@ export default function LoginAuthGuard({ children }: Props) {
 
 	const check = useCallback(() => {
 		if (!accessToken) {
-			router.replace("/auth/login");
+			console.log("Not Toast");
+			
 		}
 	}, [router, accessToken]);
 
